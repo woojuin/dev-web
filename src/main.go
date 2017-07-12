@@ -19,7 +19,7 @@ func indexHandler( w http.ResponseWriter, r *http.Request){
             ipaddress = a.String()
         }
     }
-    fmt.Fprintf(w, "<html><h2>AWS Web App!!!!!!!!!!!!</h2><p>Hostname: %s</p><p>IP address: %s</p></html>", hostname, ipaddress)
+    fmt.Fprintf(w, "<html><h2>WS Web App!!!!!!!!!!!!</h2><p>Hostname: %s</p><p>IP address: %s</p></html>", hostname, ipaddress)
 }
 
 func main(){
